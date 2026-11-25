@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "name": "phone",
+      "price": 20000,
+      "description": "vivo y17",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmDAQ--Dynv3QV1_5xXTi9M8dyCLzKHPhPxV6Iqr9xjQ&s=10",
+      "count": 10,
+      "id": 2
+    },
+    {
+      "name": "bluetooth",
+      "price": 2000,
+      "description": "bot",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-jHI4bkjW0hz0ZjHmo_1xiqW3flin1UPsVbh0-atpA&s=10",
+      "count": 10,
+      "id": 3
+    },
+    {
+      "name": "Keyboard",
+      "price": 3000,
+      "description": "Zebronics",
+      "image": "https://m.media-amazon.com/images/I/61OzEP1KyAL._AC_UF1000,1000_QL80_.jpg",
+      "count": 5,
+      "id": 4
+    },
+    {
+      "name": "watch",
+      "price": 1200,
+      "description": "Apple",
+      "image": "https://www.bing.com/th/id/OIP.2RH3S8EzeG3b3MRDq480ewHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.9&pid=ImgAns&rm=2",
+      "count": 5,
+      "id": 5
+    }
+  ]
+}

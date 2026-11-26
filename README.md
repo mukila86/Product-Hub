@@ -1,16 +1,25 @@
-# React + Vite
+# Product Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A product management web app built with React. Users can browse products, and the admin can log in to add, update and delete products.
 
-Currently, two official plugins are available:
+## Features
+- Product cards with search and sort
+- Admin login (protected route)
+- Admin dashboard with stock stats and product table
+- Add / Edit / Delete products (CRUD)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React (Vite), React Router
+- Axios
+- json-server (fake REST API)
 
-## React Compiler
+## How to run
+1. Clone the repo
+2. `npm install`
+3. Terminal 1: `npx json-server@0.17.4 --watch db.json --port 3001`
+4. Terminal 2: `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Admin login: `admin` / `admin123`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Note
+Login is client-side only (demo purpose). A real project needs backend authentication.

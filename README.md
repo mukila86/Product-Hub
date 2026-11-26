@@ -23,3 +23,12 @@ Admin login: `admin` / `admin123`
 
 ## Note
 Login is client-side only (demo purpose). A real project needs backend authentication.
+echo. >> README.md
+echo. >> README.md
+echo ## Screenshots >> README.md
+echo. >> README.md
+echo ![Store](screenshots/home.png) >> README.md
+echo. >> README.md
+echo ![Login](screenshots/login.png) >> README.md
+echo. >> README.md
+echo ![Dashboard](screenshots/admin.png) >> README.md

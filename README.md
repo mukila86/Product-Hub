@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Product Hub
 
 A product management web app built with React. Users can browse products, and the admin can log in to add, update and delete products.
@@ -32,3 +33,6 @@ echo. >> README.md
 echo ![Login](screenshots/login.png) >> README.md
 echo. >> README.md
 echo ![Dashboard](screenshots/admin.png) >> README.md
+=======
+# Product-Hub
+>>>>>>> 4ee32e6b95c099522c5471d85688c62c24c15b0e
